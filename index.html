@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Technical Seminar | NFSU Dharwad</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700;900&family=Inter:wght@300;400;600&family=JetBrains+Mono:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Cyber Cursor -->
+    <div id="cyber-cursor">
+        <div class="cursor-main"></div>
+        <div class="cursor-outline"></div>
+    </div>
+
+    <!-- Background Spider-Web Grid -->
+    <div class="bg-wrapper">
+        <canvas id="spiderCanvas"></canvas>
+        <div class="vignette"></div>
+        <div class="grid-layer"></div>
+    </div>
+
+    <header>
+        <nav class="container">
+            <div class="logo-section reveal-top">
+                <div class="uni-logo-square">
+                   <img src="nfsu.PNG" alt="NFSU Logo" class="uni-logo">
+                </div>
+                <div class="uni-info">
+                    <h1>NATIONAL FORENSIC SCIENCES UNIVERSITY</h1>
+                    <p>Dharwad Campus | Training & Placement Cell</p>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero">
+            <div class="hero-content container">
+                <div class="badge-container reveal-left">
+                    <span class="badge">Alumni Connect Series</span>
+                </div>
+                <h2 class="scramble-text" data-value="TECHNICAL SEMINAR">TECHNICAL SEMINAR</h2>
+                <p class="sub-headline reveal-bottom">Bridging the Gap: From Campus to Cyber Security Engineering</p>
+                
+                <div class="event-meta reveal-bottom">
+                    <div class="meta-item">
+                        <i class="fa-solid fa-calendar-days"></i>
+                        <span>15th January 2026</span>
+                    </div>
+                    <div class="meta-item">
+                        <i class="fa-solid fa-clock"></i>
+                        <span>3:00 PM - 4:00 PM</span>
+                    </div>
+                    <div class="meta-item">
+                        <i class="fa-solid fa-location-dot"></i>
+                        <span>Virtual Session</span>
+                    </div>
+                </div>
+
+                <div class="hero-btns reveal-bottom">
+                    <a href="https://forms.gle/YOUR_GOOGLE_FORM_LINK" target="_blank" class="btn btn-primary magnetic">
+                        <span class="btn-text"><i class="fa-solid fa-pen-to-square"></i> Register Now</span>
+                        <div class="btn-glitch"></div>
+                    </a>
+                    <a href="https://meet.google.com/YOUR_MEETING_LINK" target="_blank" class="btn btn-secondary magnetic">
+                        <span class="btn-text"><i class="fa-solid fa-video"></i> Join Meeting</span>
+                        <div class="btn-glitch"></div>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <section class="speaker-section">
+            <div class="container">
+                <div class="section-header reveal-left">
+                    <span class="pre-title">Expert Insight</span>
+                    <h3>Featured Speaker</h3>
+                </div>
+                
+                <div class="speaker-card-container reveal-bottom">
+                    <div class="speaker-card-cyber">
+                        <div class="card-header">
+                            <div class="status-indicator">
+                                <span class="pulse"></span> LIVE PROFILE
+                            </div>
+                            <div class="company-tag">Toyota Tsusho Systems</div>
+                        </div>
+                        
+                        <div class="speaker-main-content">
+                            <div class="speaker-identity">
+                                <h2 class="speaker-name">Deepanshu Sharma</h2>
+                                <div class="role-badge">
+                                    <i class="fa-solid fa-shield-halved"></i>
+                                    <span>Cyber Security Engineer Intern</span>
+                                </div>
+                                <p class="company-detail">Toyota Tsusho Systems India Private Limited</p>
+                                <div class="tenure-info">
+                                    <span class="tag"><i class="fa-solid fa-calendar"></i> Jan 2026 - Present</span>
+                                    <span class="tag"><i class="fa-solid fa-location-dot"></i> Bengaluru, Karnataka (On-site)</span>
+                                </div>
+                            </div>
+
+                            <div class="credentials-grid">
+                                <div class="cred-item">
+                                    <div class="cred-icon"><i class="fa-solid fa-graduation-cap"></i></div>
+                                    <div class="cred-info">
+                                        <label>Education</label>
+                                        <p>CS Undergrad @ NFSU '26</p>
+                                    </div>
+                                </div>
+                                <div class="cred-item">
+                                    <div class="cred-icon"><i class="fa-solid fa-trophy"></i></div>
+                                    <div class="cred-info">
+                                        <label>Milestone</label>
+                                        <p>GATE CS 2025 Qualified</p>
+                                    </div>
+                                </div>
+                                <div class="cred-item">
+                                    <div class="cred-icon"><i class="fa-solid fa-laptop-code"></i></div>
+                                    <div class="cred-info">
+                                        <label>Expertise</label>
+                                        <p>Full Stack & Forensics</p>
+                                    </div>
+                                </div>
+                                <div class="cred-item">
+                                    <div class="cred-icon"><i class="fa-solid fa-building-shield"></i></div>
+                                    <div class="cred-info">
+                                        <label>Past Experience</label>
+                                        <p>Ex-MEITY '24 Intern</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="tech-focus">
+            <div class="container">
+                <div class="tech-grid">
+                    <div class="tech-box reveal-bottom">
+                        <div class="tech-icon-wrapper">
+                            <i class="fa-solid fa-car-side"></i>
+                        </div>
+                        <h4>Automotive Security</h4>
+                        <p>Exploring hardware security and CAN bus protocols in modern smart vehicles.</p>
+                        <div class="box-line"></div>
+                    </div>
+                    <div class="tech-box reveal-bottom" style="transition-delay: 0.1s;">
+                        <div class="tech-icon-wrapper">
+                            <i class="fa-solid fa-microchip"></i>
+                        </div>
+                        <h4>System Engineering</h4>
+                        <p>Scaling security architectures for global enterprise industrial networks.</p>
+                        <div class="box-line"></div>
+                    </div>
+                    <div class="tech-box reveal-bottom" style="transition-delay: 0.2s;">
+                        <div class="tech-icon-wrapper">
+                            <i class="fa-solid fa-user-ninja"></i>
+                        </div>
+                        <h4>Career Roadmap</h4>
+                        <p>Navigating the transition from academic learning to corporate engineering.</p>
+                        <div class="box-line"></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <div class="footer-wrap">
+                <div class="footer-left">
+                    <p>&copy; 2026 NFSU Dharwad | Training & Placement Cell</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

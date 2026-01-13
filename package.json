@@ -1,0 +1,10 @@
+{
+  "name": "fluxo-website",
+  "version": "1.0.0",
+  "description": "A simple static website for Fluxo.",
+  "scripts": {
+    "dev": "npx live-server --open=./index.html"
+  },
+  "devDependencies": {},
+  "dependencies": {}
+}
